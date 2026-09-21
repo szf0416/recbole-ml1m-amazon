@@ -1,0 +1,11 @@
+dataset: ml-1m
+data_path: dataset/
+epochs: 50
+train_batch_size: 2048
+eval_batch_size: 4096
+learning_rate: 0.001
+topk: [10]
+metrics: ['Recall', 'NDCG', 'MRR', 'Hit', 'Precision']
+valid_metric: NDCG@10
+seed: 2020
+reproducibility: True

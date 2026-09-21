@@ -1,0 +1,23 @@
+name: mbrec
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy<2
+  - pandas
+  - scipy
+  - scikit-learn
+  - tqdm
+  - pyyaml
+  - tensorboard
+  - pytorch=2.5.1
+  - pytorch-cuda=12.4
+  - pip:
+      - recbole==1.2.1
+      - thop
+      - colorlog
+      - torch-geometric==2.8.0.post1

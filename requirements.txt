@@ -1,0 +1,11 @@
+recbole==1.2.1
+numpy<2
+pandas
+scipy
+scikit-learn
+tqdm
+pyyaml
+colorlog
+tensorboard
+thop
+torch-geometric==2.8.0.post1
