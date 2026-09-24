@@ -1,3 +1,5 @@
 dataset,model,recall@10,ndcg@10,mrr@10,hit@10,precision@10
 ml-1m,BPR,0.1625,0.2556,0.4452,0.7424,0.1998
 amazon-beauty,BPR,0.0647,0.0373,0.0305,0.0711,0.0076
+ml-1m,LightGCN,0.1698,0.266,0.459,0.7505,0.2076
+amazon-beauty,LightGCN,0.082,0.0466,0.0376,0.0884,0.0093
